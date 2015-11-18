@@ -40,7 +40,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B8557AFD-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Api", "Applications\HelloWorld\Itsi.Template.Api\Itsi.Template.Api.csproj", "{0D2038B2-A617-480F-B46A-7E532D389EDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Api.Tests", "Itsi.Template.Api.Tests\Itsi.Template.Api.Tests.csproj", "{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Api.Tests", "Applications\HelloWorld\Itsi.Template.Api.Tests\Itsi.Template.Api.Tests.csproj", "{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
