@@ -52,7 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Applications\HelloWorld\Itsi.Template.Api\Itsi.Template.Api.csproj">
+    <ProjectReference Include="..\Itsi.Template.Api\Itsi.Template.Api.csproj">
       <Project>{0D2038B2-A617-480F-B46A-7E532D389EDC}</Project>
       <Name>Itsi.Template.Api</Name>
     </ProjectReference>
