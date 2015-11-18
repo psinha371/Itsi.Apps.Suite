@@ -45,6 +45,13 @@ gulp.task('vet', [], function () {
         .pipe(jshint.reporter('fail'));
 });
 gulp.task('bower-inject', function () {
+    /*********************************************************
+    Glup plugin wiredep is used here to inject bower js and css
+    inot index.html. This gulp task is called in .bowerrc 
+    post script run. This means that as soon as a bower
+    package is installed, the js and css will be injected in 
+    index.html.
+    ***********************************************************/
     log('*** wire up bower css and js into html...');
     var options = config.getDefaultWireDepOptions();
 

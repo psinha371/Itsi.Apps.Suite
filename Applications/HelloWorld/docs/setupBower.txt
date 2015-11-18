@@ -20,3 +20,4 @@ bower install angular-ui-router --S
 bower install materialize --S
 bower install font-awesome --S
 bower install jquery --S
+bower install angular-resource --S

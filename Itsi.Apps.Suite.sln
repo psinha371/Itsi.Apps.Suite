@@ -34,6 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B8557AFD-E
 		SettingUpApi.txt = SettingUpApi.txt
 		Applications\HelloWorld\docs\SettingUpGulpScripts.txt = Applications\HelloWorld\docs\SettingUpGulpScripts.txt
 		Applications\HelloWorld\docs\setupBower.txt = Applications\HelloWorld\docs\setupBower.txt
+		Applications\HelloWorld\docs\SetUpSourceTreeWithGitHub.txt = Applications\HelloWorld\docs\SetUpSourceTreeWithGitHub.txt
 		Applications\HelloWorld\docs\TeamCityHelp.txt = Applications\HelloWorld\docs\TeamCityHelp.txt
 		Applications\HelloWorld\docs\WebSitestoRefer.txt = Applications\HelloWorld\docs\WebSitestoRefer.txt
 	EndProjectSection
