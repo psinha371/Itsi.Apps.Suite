@@ -1,0 +1,15 @@
+Insert new project/Asp.net Application/Empty/WebApi/Unit Test/Not hosted onAzure.
+---------------------------------Set up AutoFacDI---------------------------------
+Install AutoFac.WebAPI2 nuget package
+Under App_Start folder create type AutofacConfig that will creater the builder, 
+register all custom types of the application, register all controllers, then 
+build the continer and its dependency resolver and finally set the resolver as
+the webapi dependency resolver.
+Register the AutofacConfig in Gloabal.Asax under App_Start.
+----------------------------------Set up Entity Framework--------------------------
+
+----------------------------------Set up Identification----------------------------
+
+----------------------------------Set up Dapper------------------------------------
+
+----------------------------------Enable CORS--------------------------------------

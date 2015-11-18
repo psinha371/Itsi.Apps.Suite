@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Itsi.Template.Api.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,7 @@ namespace Itsi.Template.Api
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            AutofacConfig.Register();
         }
     }
 }
