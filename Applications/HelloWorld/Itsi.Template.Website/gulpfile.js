@@ -19,7 +19,7 @@ var angularTemplateCache = require('gulp-angular-templatecache');
 var minifyHtml = require('gulp-minify-html');
 var htmlify = require('gulp-angular-htmlify');
 var plumber = require('gulp-plumber');
-/*------------------------------------Start section (gulp-dev)------------------------------*/
+/*------------------------------------Start section (gulp dev)------------------------------*/
 gulp.task('vet', [], function () {
     /*********************************************************
     1) In the vet task, the src api will pick all the .js files 
@@ -88,7 +88,7 @@ gulp.task('serve-dev', ['inject'], function () {
         });
 });
 gulp.task('dev', ['vet', 'serve-dev']);
-/*------------------------------------Start section (gulp-build)----------------------------*/
+/*------------------------------------Start section (gulp build)----------------------------*/
 gulp.task('help', taskListing);
 gulp.task('fonts', function () {
     log('*** copying fonts to dist...');
