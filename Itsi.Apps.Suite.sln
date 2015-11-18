@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWorld", "HelloWorld", "{BE348A84-83D8-4D9F-B2F4-9740C5188EBA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Itsi.Template.Website", "Applications\HelloWorld\Itsi.Template.Website\", "{0D8316C8-1372-4CE3-AE05-06B8730BB69D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63337"
+		Debug.AspNetCompiler.PhysicalPath = "Applications\HelloWorld\Itsi.Template.Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63337\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63337"
+		Release.AspNetCompiler.PhysicalPath = "Applications\HelloWorld\Itsi.Template.Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63337\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63337"
+		SlnRelativePath = "Applications\HelloWorld\Itsi.Template.Website\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B8557AFD-EA94-4AEC-B5FA-8CD95CD7A889}"
+	ProjectSection(SolutionItems) = preProject
+		Applications\HelloWorld\docs\ApplicationInfrastructure.pptx = Applications\HelloWorld\docs\ApplicationInfrastructure.pptx
+		Applications\HelloWorld\docs\serverjsSetup.txt = Applications\HelloWorld\docs\serverjsSetup.txt
+		Applications\HelloWorld\docs\Setting up Solution.txt = Applications\HelloWorld\docs\Setting up Solution.txt
+		SettingUpApi.txt = SettingUpApi.txt
+		Applications\HelloWorld\docs\SettingUpGulpScripts.txt = Applications\HelloWorld\docs\SettingUpGulpScripts.txt
+		Applications\HelloWorld\docs\setupBower.txt = Applications\HelloWorld\docs\setupBower.txt
+		Applications\HelloWorld\docs\TeamCityHelp.txt = Applications\HelloWorld\docs\TeamCityHelp.txt
+		Applications\HelloWorld\docs\WebSitestoRefer.txt = Applications\HelloWorld\docs\WebSitestoRefer.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Api", "Applications\HelloWorld\Itsi.Template.Api\Itsi.Template.Api.csproj", "{0D2038B2-A617-480F-B46A-7E532D389EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Api.Tests", "Itsi.Template.Api.Tests\Itsi.Template.Api.Tests.csproj", "{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8316C8-1372-4CE3-AE05-06B8730BB69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8316C8-1372-4CE3-AE05-06B8730BB69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8316C8-1372-4CE3-AE05-06B8730BB69D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8316C8-1372-4CE3-AE05-06B8730BB69D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0D2038B2-A617-480F-B46A-7E532D389EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2038B2-A617-480F-B46A-7E532D389EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2038B2-A617-480F-B46A-7E532D389EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2038B2-A617-480F-B46A-7E532D389EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D8316C8-1372-4CE3-AE05-06B8730BB69D} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
+		{B8557AFD-EA94-4AEC-B5FA-8CD95CD7A889} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
+		{0D2038B2-A617-480F-B46A-7E532D389EDC} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
+		{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
+	EndGlobalSection
+EndGlobal

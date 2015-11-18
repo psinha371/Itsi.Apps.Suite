@@ -1,0 +1,40 @@
+{
+  "name": "Itsi.Timesheet.Website",
+  "version": "1.0.0",
+  "description": "It Solve's Timesheet application",
+  "main": "app.js'",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Puneet Sinha",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "browser-sync": "^2.9.11",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-angular-htmlify": "^2.3.0",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-jscs": "^3.0.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-print": "^2.0.1",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^1.4.1",
+    "gulp-useref": "^2.1.0",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1",
+    "jshint-stylish": "^2.0.1",
+    "wiredep": "^3.0.0-beta",
+    "yargs": "^3.26.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

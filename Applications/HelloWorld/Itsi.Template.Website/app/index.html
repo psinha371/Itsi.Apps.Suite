@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Itsi SPA Application</title>
+    <!-- build:css styles/lib.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/materialize/bin/materialize.css" />
+    <!-- endbower-->
+    <!-- endbuild -->
+
+    <!-- build:css styles/app.css -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+</head>
+<body ng-app="itsiTemplate" ng-strict-di>
+    <div ui-view="header"></div>
+    <div id="content" ui-view="content"></div>
+
+    <!-- build:js js/lib.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/materialize/bin/materialize.js"></script>
+    <!-- endbower-->
+    <!-- endbuild -->
+    <!-- build:js js/app.js -->
+    <!-- inject:js -->
+    <script src="app.js"></script>
+    <script src="feature/header/headerController.js"></script>
+    <script src="feature/home/homeController.js"></script>
+    <script src="feature/routes/routes.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+    <!-- inject:templates:js -->
+    <!-- endbuild -->
+
+</body>
+</html>

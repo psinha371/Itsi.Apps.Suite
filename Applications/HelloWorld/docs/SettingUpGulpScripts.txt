@@ -1,0 +1,23 @@
+----------------------Start of setting up dev environment----------------------------------------------------------------
+npm install gulp-jshint gulp-jscs --save-dev. gulp-jshint will check for javascript syntax errors where as gulp-jscs will check for javascipt code standards.
+npm install jshint-stylish --save-dev. we do this so that jscs errors and hints can be reported nicely.
+npm install --save-dev gulp-util. 
+npm install --save-dev gulp-print. This will print all the files that are picked in the src task.
+npm install --save-dev gulp-if. This will allow us to apply if statement. 
+npm install --save-dev yargs. This will allow us to read arguments from command line.
+npm install --save-dev wiredep - This package is used to inject bower dependencies into index.html.
+npm install --save-dev gulp-inject - This package is used to inject custom css and js dependencies into index.html.
+npm install --save-dev gulp-nodemon - This will run our node web server and watch for changes.
+npm install --save-dev browser-sync
+
+--------------------Start of setting up the build environment------------------------------------------------
+npm install --save-dev gulp-task-listing. This will list out all the gulp tasks in the gulp file.
+npm install --save-dev gulp-imagemin. This will compress all the images.
+npm install --save-dev del. Delete files and folders using glob patterns.
+npm install --save-dev gulp-angular-templatecache. This will cache angular templates and minify http calls.
+npm install --save-dev gulp-minify-html. This minifies html
+npm install --save-dev gulp-useref. This is used for bundling.
+npm install --save-dev gulp-plumber. This is used for error handling.
+npm install --save-dev gulp-angular-htmlify. This changes your ng-attributes to data-ng-attributes for HTML5 validation using angular-html5
+
+npm install --save-dev gulp-uglify gulp-concat. install gulp-uglify and gulp-concact to minify/compress all the java script files and then concat them in one place.

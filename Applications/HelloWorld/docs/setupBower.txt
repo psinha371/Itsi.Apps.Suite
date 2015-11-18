@@ -1,0 +1,22 @@
+Set up Bower
+----------------------------------------------
+before installing any packages install git.
+cd to the project folder and type set PATH=%PATH%;C:\Program Files\Git\bin;
+Add a text file to the project and name it .bowerrc. Add the following to the file:
+{
+  "directory": "bower_components"
+} 
+Now build your wiredep gulp script to inject bower dependencies.
+add the following to .bowerrc
+"scripts": {
+	"postinstall": "gulp bowerInject"
+}
+
+Start adding packages.
+--------------------------------------------------------------
+bower init //This will create bower.json
+bower install angular --S
+bower install angular-ui-router --S
+bower install materialize --S
+bower install font-awesome --S
+bower install jquery --S

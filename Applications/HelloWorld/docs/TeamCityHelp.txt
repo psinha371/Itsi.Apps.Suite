@@ -1,0 +1,9 @@
+﻿download teamcity 9.x windows installer fron the team city web site.
+before starting the installation create a user account under which the services will run.
+Start the installation.
+Destination folder: C:\Teamcity
+Select Components to install: default settings
+Team city default port: 7100
+Specify a user account to run the Teamcity service: Run Teamcity server under a system account
+Finish
+To change Tean City Server port: Go to <TeamCity Home>/conf and open server.xml. Change teh Connector port to what you want. Save. Then change the srever port of the build agents by going to C:\TeamCity\buildAgent\conf and open buildAgent.properties and change serverUrl. Open Services and restart TeamCity Server and TeamCity Build. 

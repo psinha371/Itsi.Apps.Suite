@@ -1,0 +1,12 @@
+The initial version of Itsi.Apps.Suite is created under the Source. The hello World website is functional along with dev and build pipelines.
+Open Source Tree.
+Click on "Clone the new repository", go to "Create New Repository" tab, browse to the path of the project and create Itsp.Apps.Suite Reporsitory.
+Push all your changes in.
+Create the develop branch from master.
+Now go to git hub and create new repository "Itsi.Apps.Suite".
+Back in Source Tree, click on the Setting with gear icon on the upper right and go to "Remote" tab.
+Click Add and then click the "Default Remote" check box for the Remote name. You can also enter any name you like in the text box.
+Enter the git up repository url https://github.com/psinha371/Itsi.Apps.Suite.git against "URL /PATH".
+Click OK and then again OK.
+Push all the changes to to the remote.
+ 

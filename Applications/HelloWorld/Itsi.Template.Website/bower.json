@@ -1,0 +1,23 @@
+{
+  "name": "Itsi.Template.Website",
+  "version": "1",
+  "homepage": "https://github.com/psinha371/Itsi.Apps.Suite",
+  "authors": [
+    "psinha371 <psinha371@gmail.com>"
+  ],
+  "description": "Template file",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "materialize": "~0.97.1",
+    "font-awesome": "~4.4.0"
+  }
+}

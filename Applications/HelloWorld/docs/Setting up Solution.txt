@@ -1,0 +1,42 @@
+Installation:
+------------------------------------------------------------------------------------------------
+Open Visual Studio 2015 express.
+Install the latest web essentials nuget package via menu Tools/extension and Updates.
+Install the latest web essentials nuget package Advanced Javascript outlining via menu Tools/extension and Updates.
+Create Blank Solution Itsi.Apps.Suite, under the directory Source.
+In Source Tree, Create new branch develop and then commit the changes. Push the changes. 
+In source Tree, change to Master, right click on develop and merge devlop into the current branch.
+Create solution folder Apps.
+Create solution folder for the app, Timesheet.
+Right Click on the TimeSheet solution folder and select "Add New WebSite" and picked Asp.net empty website.
+Deleted Web.config.
+Right Click on the TimeSheet solituion older and select "Add New Project/Add New web Application/Empty/No auth/no Azure".
+Open Command Prompt and change directory to the website folder.
+Run npm init and answer the questions,. This will create package.json
+Right clikc on the project and select "Refresh Folder".
+npm install -g gulp. the %AppData%\npm folder is completely empty on initial installation and if you only install gulp in a project folder without using -g, it doesn't put the batch file in \npm\ or its files in \npm\node_modules . 
+npm install --save-dev gulp.
+add gulpfile.js to the project directory.
+npm install --save angular.
+npm install --save bootstrap.
+npm install	--save-dev gulp-usemin - For minification.
+add the app folder.
+add the features and common folder.
+add index.html under app.
+add app.js under app.
+Set up hello world with index.html.
+npm install --save angular-ui-router
+set up server.js - Look at serverjsSetup.txt.
+set up gulp scripts, Look at SettingUpGulpScripts.txt file
+set up angular-ui-router.
+set up index.html with header footer and content.
+add home folder under features and to it add homeModule, template and controller. Wire it using angular-ui-router.
+add route folder under components.
+move the routes from app.js to route.js under components/route.
+
+
+Notes:
+---------------------------------------------------------------------------------------------------
+If the number is added to the web site project, go to solution folder/.vs/applicationhost.config and look under sites. /; ;/				   
+We set up package.json so that other developers can get all the package by simply running npm install.
+

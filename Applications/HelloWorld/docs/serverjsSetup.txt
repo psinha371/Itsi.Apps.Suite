@@ -1,0 +1,4 @@
+npm install -save express //This will install the express framework.
+add serverjs under the project.
+make sure you set up path for all the static files, starting with app.js
+next setup the router by sening all the url to index.html.
