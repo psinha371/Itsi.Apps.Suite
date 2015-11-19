@@ -7,7 +7,28 @@ build the continer and its dependency resolver and finally set the resolver as
 the webapi dependency resolver.
 Register the AutofacConfig in Gloabal.Asax under App_Start.
 ----------------------------------Set up Entity Framework--------------------------
-
+Added a class library Itsi.Template.Data;
+Added a unit test project Itsi.Template.Data.Tests;
+Installed the latest version of Entity Framework 6.3 on both the project.
+In the data project, added a new Entity folder under which all the entities will reside.
+Will use Fluent Api. So Every entity class will have its corresponding 
+EntityTypeConfiguration.
+Created the TemplateContext. All EntityTypeConfiguration of all the entities must be added.
+The template context will have only one constructor that will accept the connection string.
+In the Api WebConfig add connection strings.
+Since the Template context does not have the default parameterless constructor,
+Migrations will be an issue. You will get the error 
+"The target context is not constructible. Add a default constructor or provide an 
+implementation of IDbContextFactory." To overcome this error, Add a new class MigrationContextFactory,
+implement the IDbContextFactory and pass the connection string.
+In the TemplateContext, set automatic migration.
+Now from Package Manager Console Add the first migration
+"Add-Migration -StartUpProjectName Itsi.Template.Api InitialCreate". Use Itsi.Template.Data
+as the default project.
+Update-database 
+In the unit test project,add data and run the unit test.
+Using Server Explore connect to the (localdb)\v11.0 and choose the 
+Itsi.template database.
 ----------------------------------Set up Identification----------------------------
 
 ----------------------------------Set up Dapper------------------------------------

@@ -4,4 +4,12 @@ Applications/HelloWorld/Itsi.Template.Website/dist/
 Applications/HelloWorld/Itsi.Template.Api/obj/
 Applications/HelloWorld/Itsi.Template.Api.Tests/bin/
 Applications/HelloWorld/Itsi.Template.Api.Tests/obj/
+Applications/HelloWorld/Itsi.Template.Api/bin/
+Applications/HelloWorld/Itsi.Template.Api/obj/
+Applications/HelloWorld/Itsi.Template.Api.Tests/bin/
+Applications/HelloWorld/Itsi.Template.Api.Tests/obj/
+Applications/HelloWorld/Itsi.Template.Data.Tests/bin/
+Applications/HelloWorld/Itsi.Template.Data.Tests/obj/
+Applications/HelloWorld/Itsi.Tempate.Data/obj/
+Applications/HelloWorld/Itsi.Tempate.Data/bin/
 *.suo
