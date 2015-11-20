@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Data", "Appli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Data.Tests", "Applications\HelloWorld\Itsi.Template.Data.Tests\Itsi.Template.Data.Tests.csproj", "{22A5E0A1-AC65-4A8F-B9ED-0F572FB9DBBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.DTO", "Applications\HelloWorld\Itsi.Template.DTO\Itsi.Template.DTO.csproj", "{0C57C7B8-1318-448D-908F-DDEAD6DD4C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itsi.Template.Service", "Applications\HelloWorld\Itsi.Template.Service\Itsi.Template.Service.csproj", "{9E5A5701-397B-4916-B7BA-1FD7261D44FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +76,14 @@ Global
 		{22A5E0A1-AC65-4A8F-B9ED-0F572FB9DBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22A5E0A1-AC65-4A8F-B9ED-0F572FB9DBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22A5E0A1-AC65-4A8F-B9ED-0F572FB9DBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C57C7B8-1318-448D-908F-DDEAD6DD4C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C57C7B8-1318-448D-908F-DDEAD6DD4C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C57C7B8-1318-448D-908F-DDEAD6DD4C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C57C7B8-1318-448D-908F-DDEAD6DD4C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5A5701-397B-4916-B7BA-1FD7261D44FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5A5701-397B-4916-B7BA-1FD7261D44FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5A5701-397B-4916-B7BA-1FD7261D44FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5A5701-397B-4916-B7BA-1FD7261D44FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,5 +95,7 @@ Global
 		{B4DEACF7-D14E-454C-B2A1-784F3E09BEA1} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
 		{76D6D710-3583-46E7-8A6B-A6F1AF6E0449} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
 		{22A5E0A1-AC65-4A8F-B9ED-0F572FB9DBBE} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
+		{0C57C7B8-1318-448D-908F-DDEAD6DD4C4C} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
+		{9E5A5701-397B-4916-B7BA-1FD7261D44FF} = {BE348A84-83D8-4D9F-B2F4-9740C5188EBA}
 	EndGlobalSection
 EndGlobal

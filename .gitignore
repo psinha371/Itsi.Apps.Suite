@@ -13,3 +13,5 @@ Applications/HelloWorld/Itsi.Template.Data.Tests/obj/
 Applications/HelloWorld/Itsi.Tempate.Data/obj/
 Applications/HelloWorld/Itsi.Tempate.Data/bin/
 *.suo
+Applications/HelloWorld/Itsi.Template.DTO/obj/
+Applications/HelloWorld/Itsi.Template.Service/obj/Debug/
