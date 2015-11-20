@@ -1,6 +1,7 @@
 ﻿'use strict';
 angular.module('itsiTemplate')
-    .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
+    .config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
+        function ($stateProvider, $urlRouterProvider, $locationProvider) {
         $stateProvider
             .state('root', {
                 views: {
