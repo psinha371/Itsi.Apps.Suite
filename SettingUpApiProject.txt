@@ -30,7 +30,34 @@ In the unit test project,add data and run the unit test.
 Using Server Explore connect to the (localdb)\v11.0 and choose the 
 Itsi.template database.
 ----------------------------------Wire Api to Data---------------------------------
-
+Decided not to use the repository pattern as often shown on msdn sites for developing 
+WebApi, because it just does not make sense. EF already provide unit of work and
+repository out of the box. DbContext is the unit of work and each dbset is the repository.
+So decided to use the DTO and service pattern. Reason For DTO abstraction:
+1) Tailor it for the clients.
+2) Hide properties that client should never see.
+3) Flatten the object model.
+4) Avoid under posting where a clinet do not send all the data.
+5) Avoid over positing where a client sends most of the data.
+6) Decouple the api layer from the data layer.
+Make Sure you annotate the DTO model so that simple validation can be performed
+on the model in the controller itself.
+For Simple Validation, espically for the post and the put, I created a ModelValidateAttribute 
+class, added that to the filter in WebConfig.cs and then decorate every post and 
+put methods with ValidateModel attribute. What this will do is, before the controller post
+or put method is invoked, it will validate the model. If the model is invalid,
+it will thow BadRequest and will tell the client which field is invalid. 
+Reason for the Service abstraction:
+1) It is the business logic layer.
+2) It is where we will apply all business logic.
+3) Decouple the api layer from the data layer.
+4) Mapping from the entity to dto will happen here.
+5) Do not recommend Auto Mapping, because manual mapping gives the most performance.
+Added Json Formatting config (JsonFormatterConfig.cs) to send the response in camelCase as well as transorm
+date format in UTC.
+When you run the app, you will not see any conent page on the browser, as I have decided not to return a view.
+Use Advanced Res.
+The Api is restful.
 ----------------------------------Set up Identification----------------------------
 
 ----------------------------------Set up Dapper------------------------------------

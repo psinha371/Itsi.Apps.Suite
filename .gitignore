@@ -15,3 +15,8 @@ Applications/HelloWorld/Itsi.Tempate.Data/bin/
 *.suo
 Applications/HelloWorld/Itsi.Template.DTO/obj/
 Applications/HelloWorld/Itsi.Template.Service/obj/Debug/
+Applications/HelloWorld/Itsi.Template.Service/bin/Debug/Itsi.Template.DTO.dll
+Applications/HelloWorld/Itsi.Template.Service/bin/Debug/EntityFramework.xml
+Applications/HelloWorld/Itsi.Template.Service/bin/
+Applications/HelloWorld/Itsi.Template.Website/Bin/
+Applications/HelloWorld/Itsi.Template.DTO/bin/

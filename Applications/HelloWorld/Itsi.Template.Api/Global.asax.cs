@@ -1,4 +1,6 @@
 ﻿using Itsi.Template.Api.App_Start;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,10 @@ namespace Itsi.Template.Api
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            // Wire Autofac
             AutofacConfig.Register();
+            // Configure Json Formattter
+            JsonFormatterConfig.Register();
         }
     }
 }

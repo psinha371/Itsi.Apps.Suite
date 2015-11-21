@@ -1,4 +1,5 @@
 ﻿using Itsi.Template.Data;
+using Itsi.Template.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace Itsi.Template.Service.Contracts
 {
     public interface ITechnologyService
     {
-        Task<List<Technology>> GetTechnologies();
+        Task<List<TechnologyDto>> GetTechnologies();
+        Task AddOrUpdateTechnology(TechnologyDto technology);
+        Task DeleteTechnology(int technologyID);
     }
 }

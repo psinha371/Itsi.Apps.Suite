@@ -102,7 +102,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\AutofacConfig.cs" />
+    <Compile Include="App_Start\JsonFormatterConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\TechnologyController.cs" />
+    <Compile Include="Filters\ValidateModelAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -119,8 +122,21 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Itsi.Tempate.Data\Itsi.Template.Data.csproj">
+      <Project>{76d6d710-3583-46e7-8a6b-a6f1af6e0449}</Project>
+      <Name>Itsi.Template.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Itsi.Template.DTO\Itsi.Template.DTO.csproj">
+      <Project>{0c57c7b8-1318-448d-908f-ddead6dd4c4c}</Project>
+      <Name>Itsi.Template.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Itsi.Template.Service\Itsi.Template.Service.csproj">
+      <Project>{9e5a5701-397b-4916-b7ba-1fd7261d44ff}</Project>
+      <Name>Itsi.Template.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
