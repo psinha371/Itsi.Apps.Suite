@@ -1,4 +1,4 @@
-Insert new project/Asp.net Application/Empty/WebApi/Unit Test/Not hosted onAzure.
+﻿Insert new project/Asp.net Application/Empty/WebApi/Unit Test/Not hosted onAzure.
 ---------------------------------Set up AutoFacDI---------------------------------
 Install AutoFac.WebAPI2 nuget package
 Under App_Start folder create type AutofacConfig that will creater the builder, 
@@ -53,12 +53,33 @@ Reason for the Service abstraction:
 3) Decouple the api layer from the data layer.
 4) Mapping from the entity to dto will happen here.
 5) Do not recommend Auto Mapping, because manual mapping gives the most performance.
+6) Implement IDisposable and dispose the context object. (Not sure how Autofac's container will react to this.)
 Added Json Formatting config (JsonFormatterConfig.cs) to send the response in camelCase as well as transorm
 date format in UTC.
 When you run the app, you will not see any conent page on the browser, as I have decided not to return a view.
 Use Advanced Res.
 The Api is restful.
 ----------------------------------Set up Identification----------------------------
+
+
+
+
+
+Useful links:
+http://blog.iteedee.com/2014/03/asp-net-identity-2-0-cookie-token-authentication/
+https://github.com/tjoudeh/AspNetIdentity.WebApi
+http://stackoverflow.com/questions/21519226/example-of-using-asp-net-identity-2-0-usermanagerfactory-with-useoauthbearertoke
+http://stackoverflow.com/questions/19528496/bearer-token-authentication-with-asp-net-api?rq=1
+http://stackoverflow.com/questions/21102252/how-are-bearer-tokens-stored-server-side-in-web-api-2
+http://blogs.msdn.com/b/webdev/archive/2013/09/20/understanding-security-features-in-spa-template.aspx
+​http://www.saifikram.com/2014/06/token-based-authentication-using-asp-net-web-api-2-with-owin
+​http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/
+https://bitbucket.org/david.antaramian/so-21662778-spa-authentication-example/overview
+http://eliot-jones.com/2014/10/asp-identity-2-0
+
+Basics:
+https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/
+https://auth0.com/blog/2014/01/15/auth-with-socket-io/
 
 ----------------------------------Set up Dapper------------------------------------
 

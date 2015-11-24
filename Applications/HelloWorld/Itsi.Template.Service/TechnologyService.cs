@@ -8,7 +8,7 @@ using Itsi.Template.DTO;
 
 namespace Itsi.Template.Service
 {
-    public class TechnologyService: ITechnologyService
+    public class TechnologyService: ITechnologyService, IDisposable
     {
         private TemplateContext _templateContext;
         public TechnologyService(TemplateContext templateContext)
@@ -51,6 +51,11 @@ namespace Itsi.Template.Service
                 _templateContext.Technologies.Remove(existingTechnology);
                 await _templateContext.SaveChangesAsync();
             }
+        }
+
+        public void Dispose()
+        {
+            _templateContext.Dispose();
         }
 
         public async Task<List<TechnologyDto>> GetTechnologies()
