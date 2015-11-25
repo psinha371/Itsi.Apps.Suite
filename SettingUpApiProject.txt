@@ -76,7 +76,8 @@ http://blogs.msdn.com/b/webdev/archive/2013/09/20/understanding-security-feature
 ​http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/
 https://bitbucket.org/david.antaramian/so-21662778-spa-authentication-example/overview
 http://eliot-jones.com/2014/10/asp-identity-2-0
-
+http://odetocode.com/blogs/scott/archive/2014/01/20/implementing-asp-net-identity.aspx
+http://www.codeproject.com/Articles/864725/ASP-NET-Understanding-OWIN-Katana-and-the-Middlewa
 Basics:
 https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/
 https://auth0.com/blog/2014/01/15/auth-with-socket-io/
